@@ -7,7 +7,7 @@ class ToDoTile extends StatelessWidget {
   final Function(bool?)? onChanged;
   final Function(BuildContext)? deleteFunction;
 
-  ToDoTile({
+  const ToDoTile({
       super.key,
       required this.taskName,
       required this.isDone,
